@@ -409,6 +409,7 @@ body {
 }
 
 .touch__btn {
+  padding: 0 1rem;
   height: 5rem;
   width: 18.5rem;
   border: none;
