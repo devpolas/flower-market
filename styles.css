@@ -482,7 +482,7 @@ body {
   }
 
   .hero {
-    margin-top: 2.8rem;
+    margin-top: 5rem;
     flex-direction: column-reverse;
     gap: 2.8rem;
   }
@@ -491,36 +491,31 @@ body {
     width: 100%;
   }
 
-  .plant {
-    margin-top: 6.5rem;
-  }
-
   .store__main {
     flex-direction: column;
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
   .batch {
     display: none;
   }
 
   .discount__main {
-    margin-bottom: 6.5rem;
-    height: 55rem;
+    height: 60rem;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr;
   }
   .discount__box-1 {
-    height: 17rem;
+    height: 20rem;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
   }
   .discount__box-2 {
-    height: 17rem;
+    height: 20rem;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
   }
   .discount__box-3 {
-    height: 17rem;
+    height: 20rem;
     grid-row: 3 / -1;
     grid-column: 1 / 2;
   }
