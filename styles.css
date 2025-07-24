@@ -290,3 +290,65 @@ body {
   color: rgba(0, 0, 0, 0.5);
   margin-top: 2rem;
 }
+
+.deal__content {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.deals__heading {
+  font-size: 5rem;
+}
+
+.touch__img {
+  height: 55rem;
+  width: 100%;
+  background-image: url("./assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.touch__content {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.touch__heading {
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: 5rem;
+  margin-bottom: 2.3rem;
+}
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.subscribe input[type="email"] {
+  border: none;
+  width: 65rem;
+  height: 5rem;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+.touch__btn {
+  height: 5rem;
+  width: 18.5rem;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.touch__btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 101, 12);
+}
