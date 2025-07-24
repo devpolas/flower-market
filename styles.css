@@ -352,3 +352,35 @@ body {
   cursor: pointer;
   background-color: rgb(255, 101, 12);
 }
+
+.footer__main {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 11rem;
+}
+
+.footer__logo {
+  width: 30rem;
+}
+
+.footer__links ul {
+  display: flex;
+  gap: 3.2rem;
+  flex-direction: column;
+  list-style: none;
+}
+.footer__links ul a {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.footer__icon--links {
+  display: flex;
+  gap: 2.4rem;
+}
+.footer__icon--links img {
+  height: 3.6rem;
+  width: 3.6rem;
+}
