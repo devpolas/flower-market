@@ -1,0 +1,64 @@
+@media screen and (width <= 576px) {
+  html {
+    font-size: 40%;
+  }
+  .nav__link {
+    display: none;
+  }
+
+  .hero {
+    margin-top: 2.8rem;
+    flex-direction: column-reverse;
+    gap: 2.8rem;
+  }
+  .hero__content {
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .plant {
+    margin-top: 6.5rem;
+  }
+
+  .store__main {
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  .batch {
+    display: none;
+  }
+
+  .discount__main {
+    margin-bottom: 6.5rem;
+    height: 55rem;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+  .discount__box-1 {
+    height: 17rem;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+  .discount__box-2 {
+    height: 17rem;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+  .discount__box-3 {
+    height: 17rem;
+    grid-row: 3 / -1;
+    grid-column: 1 / 2;
+  }
+  .discount__font--xl p {
+    font-size: 1.6rem;
+  }
+  .discount__font--xl a {
+    font-size: 1.6rem;
+  }
+  .footer__main {
+    margin-top: 0;
+    flex-direction: column;
+    padding: 3.2rem;
+    gap: 3.2rem;
+  }
+}
